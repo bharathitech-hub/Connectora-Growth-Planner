@@ -110,5 +110,7 @@ if today in st.session_state.progress:
     st.download_button("📅 Add to Calendar", data=str(cal), file_name="connectora_task.ics")
 
 # --- Feedback ---
+# --- Feedback ---
 st.markdown("## 💬 Feedback")
-st.feedback("Tell us what you'd like improved or added:")
+st.feedback("stars", label="Rate your experience using Connectora today")
+
