@@ -112,5 +112,5 @@ if today in st.session_state.progress:
 # --- Feedback ---
 # --- Feedback ---
 st.markdown("## 💬 Feedback")
-st.feedback("stars", label="Rate your experience using Connectora today")
+st.feedback("stars")
 
