@@ -1,7 +1,3 @@
-streamlit
-scikit-learn
-pandas
-numpy
-joblib
-altair
-ics
+streamlit==1.35.0
+pandas==2.2.2
+
