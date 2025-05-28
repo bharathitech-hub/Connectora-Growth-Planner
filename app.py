@@ -24,7 +24,7 @@ if not st.session_state.user_name:
     name = st.text_input("👋 What's your name?")
     if name:
         st.session_state.user_name = name
-        st.experimental_rerun()
+        st.rerun()
 else:
     st.title("🌱 Connectora: Smart Working Growth Planner")
     st.success(f"Welcome, {st.session_state.user_name}! Let's boost your growth! 🚀")
@@ -140,12 +140,12 @@ else:
             f"{name}, your journey as a {role} starts today. Let's build habits!"
         ],
         "growing": [
-            f"{name}, {streak} days in! Keep going strong 💪",
+            f"{name}, {st.session_state.streak} days in! Keep going strong 💪",
             f"{name}, you're gaining traction. As a {role}, growth is exponential!"
         ],
         "master": [
-            f"🔥 {name}, {streak} days streak! You're owning this {role} life!",
-            f"Legendary! {streak} days — stay unstoppable, {name}!"
+            f"🔥 {name}, {st.session_state.streak} days streak! You're owning this {role} life!",
+            f"Legendary! {st.session_state.streak} days — stay unstoppable, {name}!"
         ],
         "low_completion": [
             f"{name}, try finishing one task to ignite momentum.",
@@ -202,5 +202,5 @@ else:
     - 👤 Build an admin dashboard with filters  
     """)
 
-
+ 
 
