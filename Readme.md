@@ -42,7 +42,8 @@ Connectora is a role-intelligent productivity platform designed to help students
 
 ## Live Demo
 
-[Click here to launch Connectora](https://connectora-growth-planner-fbxoiugwytjj4srjxcoozp.streamlit.app/)
+[Click here to launch Connectora] https://connectora-growth-planner-fbxoiugwytjj4srjxcoozp.streamlit.app/
+
 
 ---
 
